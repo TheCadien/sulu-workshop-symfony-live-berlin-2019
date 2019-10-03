@@ -15,3 +15,11 @@ app_event_registrations:
     name_prefix: app.
     options:
         expose: true
+
+app_locations:
+    type: rest
+    resource: App\Controller\Admin\LocationController
+    prefix: /admin/api
+    name_prefix: app.
+    options:
+        expose: true
